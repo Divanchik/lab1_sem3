@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libcpp-rational.a"
+			"path" : "libc-rational.a"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -36,7 +36,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
+					"fragment" : "-O3 -DNDEBUG  "
 				}
 			],
 			"language" : "CXX",
@@ -46,9 +46,9 @@
 			]
 		}
 	],
-	"id" : "cpp-rational::@6890427a1f51a3e7e1df",
-	"name" : "cpp-rational",
-	"nameOnDisk" : "libcpp-rational.a",
+	"id" : "c-rational::@6890427a1f51a3e7e1df",
+	"name" : "c-rational",
+	"nameOnDisk" : "libc-rational.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -69,7 +69,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "cpp-rational.cpp",
+			"path" : "c-rational.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -75,8 +75,8 @@ clean: CMakeFiles/c-rational.dir/clean
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: CMakeFiles/c-rational.dir/all
 CMakeFiles/main.dir/all: CMakeFiles/cpp-rational.dir/all
+CMakeFiles/main.dir/all: CMakeFiles/c-rational.dir/all
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dimadivan/lab1_sem3/build/CMakeFiles --progress-num=5,6 "Built target main"

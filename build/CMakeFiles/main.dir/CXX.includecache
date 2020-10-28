@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dimadivan/lab1_sem3/c-rational.h
+
+/home/dimadivan/lab1_sem3/cpp-rational.h
+
+/home/dimadivan/lab1_sem3/main.cpp
+cstdio
+-
+cstdlib
+-
+cmath
+-
+c-rational.h
+/home/dimadivan/lab1_sem3/c-rational.h
+cpp-rational.h
+/home/dimadivan/lab1_sem3/cpp-rational.h
+
