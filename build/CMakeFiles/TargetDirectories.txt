@@ -1,0 +1,5 @@
+/home/dimadivan/lab1_sem3/build/CMakeFiles/edit_cache.dir
+/home/dimadivan/lab1_sem3/build/CMakeFiles/main.dir
+/home/dimadivan/lab1_sem3/build/CMakeFiles/cpp-rational.dir
+/home/dimadivan/lab1_sem3/build/CMakeFiles/rebuild_cache.dir
+/home/dimadivan/lab1_sem3/build/CMakeFiles/c-rational.dir
