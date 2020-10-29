@@ -12,7 +12,7 @@ namespace c
         else
             return angle;
     }
-    double angle_from(Line a, Line b)// angle between line and another line
+    double angle_from(const Line a, const Line b)// angle between line and another line
     {
         double A1 = a.A;
         double B1 = a.B;
@@ -22,7 +22,7 @@ namespace c
             return NAN;
         return (A1*B1+A2*B2)/(sqrt(A1*A1+B1*B1)*sqrt(A2*A2+B2*B2));
     }
-    int is_separating_dots(Line l, Dot a, Dot b)//is line separating two dots from each other
+    int is_separating_dots(const Line l, const Dot a, const Dot b)//is line separating two dots from each other
     {
         double A = l.A;
         double B = l.B;
@@ -34,7 +34,7 @@ namespace c
         else
             return 0;
     }
-    Dot is_crossing(Line a, Line b)//is line crossing another line
+    Dot is_crossing(const Line a, const Line b)//is line crossing another line
     {
         double A = a.A;
         double B = a.B;

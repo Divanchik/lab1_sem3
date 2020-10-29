@@ -14,9 +14,9 @@ namespace cpp
         // Allows user to input coordinates for Dot.
         void get_data(char *s);
         // Returns x coordinate.
-        double _x();
+        double _x() const;
         // Returns y coordinate.
-        double _y();
+        double _y() const;
         // Coordinates initialization.
         void set(double a, double b);
     };
@@ -37,20 +37,20 @@ namespace cpp
         // Coefficients initialization.
         void set(double a, double b, double c);
         // Returns A coefficient.
-        double _A();
+        double _A() const;
         // Returns B coefficient.
-        double _B();
+        double _B() const;
         // Returns C coefficient.
-        double _C();
+        double _C() const;
         // Returns angle between Line and X axis.
-        double angle_from_x();
+        double angle_from_x() const;
         // Returns angle between Line and X axis.
         static double angle_from_x(Line s);
         // Returns angle between Line and Line.
-        double angle_from(Line s);
+        double angle_from(Line s) const;
         // Returns True if Line is separating two Dots.
-        int is_separating_dots(Dot a, Dot b);
+        int is_separating_dots(Dot a, Dot b) const;
         // Returns Dot of Line crossing another Line. If Line is NOT crossing another Line, returns Dot(NaN, NaN).
-        Dot is_crossing(Line s);
+        Dot is_crossing(Line s) const;
     };
 }
