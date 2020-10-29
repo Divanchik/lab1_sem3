@@ -12,7 +12,7 @@ namespace cpp
         // Constructor with parameters initialization.
         Dot(double a, double b);
         // Allows user to input coordinates for Dot.
-        void get_data(char *s);
+        void get_data(const char *s);
         // Returns x coordinate.
         double _x() const;
         // Returns y coordinate.
@@ -31,7 +31,7 @@ namespace cpp
         // Constructor with parameters initialization.
         Line(double a, double b, double c);
         // Allows user to input coefficients for Line.
-        void get_data(char *s);
+        void get_data(const char *s);
         // Initialize coefficient with 'i' name.
         void set(const char i, double n);
         // Coefficients initialization.

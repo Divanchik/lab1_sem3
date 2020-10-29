@@ -12,7 +12,7 @@ int strlen(char *s)
     return i;
 }
 void cut_char(char *s) { s[strlen(s) - 1] = 0; }
-int find_char(char c, char *s)
+int find_char(char c, const char *s)
 {
     int i = 0;
     while (*(s + i))
@@ -66,7 +66,7 @@ int check_input(char *s)
     else
         return check_sep(',', s);
 }
-void cpp::Line::get_data(char *s)
+void cpp::Line::get_data(const char *s)
 {
     A = atof(s);
     while (*s == ' ')
@@ -78,7 +78,7 @@ void cpp::Line::get_data(char *s)
     s += find_char(' ', s) + 1;
     C = atof(s);
 }
-void cpp::Dot::get_data(char *s)
+void cpp::Dot::get_data( const char *s)
 {
     x = atof(s);
     while (*s == ' ')
@@ -86,7 +86,7 @@ void cpp::Dot::get_data(char *s)
     s += find_char(' ', s) + 1;
     y = atof(s);
 }
-void c::get_data(Line *l, char *s)
+void c::get_data(Line *l, const char *s)
 {
     l->A = atof(s);
     while (*s == ' ')
@@ -98,7 +98,7 @@ void c::get_data(Line *l, char *s)
     s += find_char(' ', s) + 1;
     l->C = atof(s);
 }
-void c::get_data(Dot *d, char *s)
+void c::get_data(Dot *d, const char *s)
 {
     d->x = atof(s);
     while (*s == ' ')

@@ -5,12 +5,12 @@ namespace c
     struct Dot
     {double x,y;};
     // Allows user to input coordinates for Dot.
-    void get_data(Dot *d, char *s);
+    void get_data(Dot *d, const char *s);
     // Line structure. Parameters: A, B, C.
     struct Line
     {double A,B,C;};
     // Allows user to input coefficients for Line.
-    void get_data(Line *l, char *s);
+    void get_data(Line *l, const char *s);
     // Returns angle between Line and X axis.
     double angle_from_x(const Line a);
     // Returns angle between Line and Line.
